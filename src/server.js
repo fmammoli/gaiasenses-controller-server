@@ -6,7 +6,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
   cors: {
-    origin: "https://gaiasenses-oiyhv6zhv-fmammolis-projects.vercel.app", // Replace with your Next.js app URL
+    origin: "gaiasenses-5o1hyw3p4-fmammolis-projects.vercel.app", // Replace with your Next.js app URL
     methods: ["GET", "POST"],
     credentials: true,
   },
